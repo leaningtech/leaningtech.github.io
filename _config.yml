@@ -1,0 +1,94 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+baserepo: "https://github.com/leaningtech"
+url: "https://leaningtech.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+email: info@leaningtech.com
+social_links:
+  twitter: leaningtech
+  github:  leaningtech
+  medium:  leaningtech
+  linkedin: leaning-technologies-Ltd
+
+# Build settings
+markdown: kramdown
+
+plugins:
+ - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "https://opengraph.githubassets.com/19821c25899861c60f24bbabafd28c924982e74a2edb07a58a3d28f6f5210efb/leaningtech/leaningtech-docs"
+      section-title: Leaning Technologies Documentation
+      logo: "/assets/leaningtech.jpg"
+      baseurl: "/"
+      baseurl_no: ""
+      tagline:
+        line1: "Leaning Technologies Documentation"
+        line2: "Developer oriented knowledge"
+      header_selection:
+        website: https://leaningtech.com/                          # Change to relevant website (eg. product one)
+        #repository: https://github.com/leaningtech/leaningtech-docs    # Change to relevant repo
+        #issues: https://github.com/leaningtech/leaningtech-docs/issues # Change here
+        #chat: https://gitter.im/leaningtech/cheerp                 # Change here
+        blog: https://medium.com/leaningtech
+        about: "/about"
+      #source_repo:
+      description: >- # this means to ignore newlines until "something:"
+        Your description. You can edit this
+        line in _config.yml. It will appear in your document head meta (for
+        Google search results) and in your feed.xml site description.
+  - scope:
+      path: "cheerp"
+    values:
+      image: "https://opengraph.githubassets.com/19821c25899861c60f24bbabafd28c924982e74a2edb07a58a3d28f6f5210efb/leaningtech/leaningtech-docs"
+      section-title: Cheerp Documentation
+      logo: "/assets/cheerp_logo.png"
+      baseurl: "/cheerp/"
+      baseurl_no: "cheerp/"
+      tagline:
+        line1: "Cheerp | the C++ compiler for the Web"
+        line2: "Documentation & Tutorials"
+      header_selection:
+        website: https://leaningtech.com/                          # Change to relevant website (eg. product one)
+        repository: https://github.com/leaningtech/cheerp-meta    # Change to relevant repo
+        issues: https://github.com/leaningtech/cheerp-meta/issues # Change here
+        chat: https://gitter.im/leaningtech/cheerp                 # Change here
+        blog: https://medium.com/leaningtech
+        about: "/cheerp/about"
+      source_repo: "https://github.com/leaningtech/cheerp-meta/"
+      description: >- # this means to ignore newlines until "something:"
+        Your descriptionw. You can edit this
+        line in _config.yml. It will appear in your document head meta (for
+        Google search results) and in your feed.xml site description.
+  - scope:
+      path: "cheerp/README.md"
+    values:
+      permalink: "/cheerp/"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

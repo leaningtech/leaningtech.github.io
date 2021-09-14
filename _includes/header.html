@@ -1,0 +1,27 @@
+<header class="site-header">
+
+	<div class="wrapper">
+		<div class="header-col-wrapper">
+	  <div class="header-col">
+		  <a href="{{site.url}}{{page.baseurl}}" title="{{page.section-title}}"><img class="header-logo" rel="author" alt="Logo for {{page.section-title}}"src="{{site.baseurl}}{{ page.logo }}"></img></a>
+	  </div>
+	  <div class="header-col2" style="text-align:right; line-height:normal; display:flex; flex-direction:column; justify-content: space-evenly;">
+		  <div>
+			  {{page.tagline.line1}}
+		  </div>
+		  <div>
+			  {{page.tagline.line2}}
+		</div>
+	  </div>
+	  </div>
+  </div>
+  <div class="wrapper header-useful-links">
+	{%- if page.header_selection.website -%}<a href="{{page.header_selection.website}}" target="_blank" rel="noopener">Website</a>{%- endif -%}
+	{%- if page.header_selection.repository -%}<a href="{{page.header_selection.repository}}" target="_blank" rel="noopener">Repository</a>{%- endif -%}
+	{%- if page.header_selection.support -%}<a href="{{page.header_selection.support}}" target="_blank" rel="noopener">Support</a>{%- endif -%}
+	{%- if page.header_selection.issues -%}<a href="{{page.header_selection.issues}}" target="_blank" rel="noopener">Issues</a>{%- endif -%}
+	{%- if page.header_selection.chat -%}<a href="{{page.header_selection.chat}}" target="_blank" rel="noopener">Community</a>{%- endif -%}
+	{%- if page.header_selection.blog -%}<a href="{{page.header_selection.blog}}" target="_blank" rel="noopener">Technical Blog</a>{%- endif -%}
+	{%- if page.header_selection.about -%}<a href="{{page.header_selection.about}}">About</a>{%- endif -%}
+  </div>
+</header>
