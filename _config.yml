@@ -48,11 +48,16 @@ defaults:
         #chat: https://gitter.im/leaningtech/cheerp                 # Change here
         blog: https://medium.com/leaningtech
         about: "/about"
-      #source_repo:
+      source_repo: "https://github.com/leaningtech/leaningtech.github.io/"
       description: >- # this means to ignore newlines until "something:"
         Your description. You can edit this
         line in _config.yml. It will appear in your document head meta (for
         Google search results) and in your feed.xml site description.
+      index: index.html
+  - scope:
+      path: "README.md"
+    values:
+      permalink: "/"
   - scope:
       path: "cheerp"
     values:
@@ -76,6 +81,7 @@ defaults:
         Your descriptionw. You can edit this
         line in _config.yml. It will appear in your document head meta (for
         Google search results) and in your feed.xml site description.
+      index: cheerpIndex.html
   - scope:
       path: "cheerp/README.md"
     values:

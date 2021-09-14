@@ -1,3 +1,6 @@
 [submodule "cheerp"]
 	path = cheerp
 	url = git@github.com:leaningtech/cheerp-meta.git
+[submodule "cheerpj-applet-runner"]
+	path = cheerpj-applet-runner
+	url = git@github.com:leaningtech/cheerpj-appletrunner.git
