@@ -145,10 +145,9 @@ defaults:
         blog: https://medium.com/leaningtech
         #about: "/cheerp/about"
       index-links:
-        download: "https://leaningtech.com/cheerp/#download"
-        licence: "https://leaningtech.com/cheerp/#download"
-        #chrome: "https://chrome.google.com/webstore/detail/cheerpj-applet-runner/bbmolahhldcbngedljfadjlognfaaein"
-        #edge: "https://microsoftedge.microsoft.com/addons/detail/cheerpj-applet-runner/ebfcpaoldmijengghefpohddmfpndmic"
+        download: "https://leaningtech.com/download-cheerpj/"
+        licence: "https://leaningtech.com/cheerpj-licensing/"
+        demo: "https://leaningtech.com/demo/?cheerpjfilter"
         #privacy: "https://leaningtech.com/privacy-policy-cheerpj-ar/"
       source_repo: "https://github.com/leaningtech/cheerpj-appletrunner/"
       description: >- # this means to ignore newlines until "something:"
