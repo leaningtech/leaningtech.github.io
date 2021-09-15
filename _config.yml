@@ -125,6 +125,42 @@ defaults:
       path: "cheerpj-applet-runner/README.md"
     values:
       permalink: "/cheerpj-applet-runner/"
+  - scope:
+      path: "cheerpj"
+    values:
+      is_product: 1
+      image: "https://opengraph.githubassets.com/19821c25899861c60f24bbabafd28c924982e74a2edb07a58a3d28f6f5210efb/leaningtech/cheerpj-meta"
+      section-title: CheerpJ Applet Runner Documentation
+      logo: "/assets/cheerpj_logo.png"
+      baseurl: "/cheerpj/"
+      baseurl_no: "cheerpj/"
+      tagline:
+        line1: "CheerpJ | the Java solution for the Web"
+        line2: "Documentation & Tutorials"
+      header_selection:
+        website: https://leaningtech.com/cheerpj/
+        # repository: https://github.com/leaningtech/cheerpj-appletrunner    # Change to relevant repo
+        issues: https://github.com/leaningtech/cheerpj-meta/issues # Change here
+        chat: https://gitter.im/leaningtech/cheerpj                # Change here
+        blog: https://medium.com/leaningtech
+        #about: "/cheerp/about"
+      index-links:
+        download: "https://leaningtech.com/cheerp/#download"
+        licence: "https://leaningtech.com/cheerp/#download"
+        #chrome: "https://chrome.google.com/webstore/detail/cheerpj-applet-runner/bbmolahhldcbngedljfadjlognfaaein"
+        #edge: "https://microsoftedge.microsoft.com/addons/detail/cheerpj-applet-runner/ebfcpaoldmijengghefpohddmfpndmic"
+        #privacy: "https://leaningtech.com/privacy-policy-cheerpj-ar/"
+      source_repo: "https://github.com/leaningtech/cheerpj-appletrunner/"
+      description: >- # this means to ignore newlines until "something:"
+        Your descriptionw. You can edit this
+        line in _config.yml. It will appear in your document head meta (for
+        Google search results) and in your feed.xml site description.
+      index: cheerpj/index.html
+      index-specific: cheerpj/index-specific.html
+  - scope:
+      path: "cheerpj/README.md"
+    values:
+      permalink: "/cheerpj/"
 
 docs_repo: "https://github.com/leaningtech/leaningtech.github.io/"
 
