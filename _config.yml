@@ -54,6 +54,7 @@ defaults:
         line in _config.yml. It will appear in your document head meta (for
         Google search results) and in your feed.xml site description.
       index: index.html
+      index-specific: index-specific.html
   - scope:
       path: "README.md"
     values:
@@ -61,7 +62,8 @@ defaults:
   - scope:
       path: "cheerp"
     values:
-      image: "https://opengraph.githubassets.com/19821c25899861c60f24bbabafd28c924982e74a2edb07a58a3d28f6f5210efb/leaningtech/leaningtech-docs"
+      is_product: 1
+      image: "https://opengraph.githubassets.com/19821c25899861c60f24bbabafd28c924982e74a2edb07a58a3d28f6f5210efb/leaningtech/cheerp-meta"
       section-title: Cheerp Documentation
       logo: "/assets/cheerp_logo.png"
       baseurl: "/cheerp/"
@@ -70,22 +72,59 @@ defaults:
         line1: "Cheerp | the C++ compiler for the Web"
         line2: "Documentation & Tutorials"
       header_selection:
-        website: https://leaningtech.com/                          # Change to relevant website (eg. product one)
+        website: https://leaningtech.com/cheerp/
         repository: https://github.com/leaningtech/cheerp-meta    # Change to relevant repo
         issues: https://github.com/leaningtech/cheerp-meta/issues # Change here
         chat: https://gitter.im/leaningtech/cheerp                 # Change here
         blog: https://medium.com/leaningtech
         about: "/cheerp/about"
+      download: "https://leaningtech.com/cheerp/#download"
       source_repo: "https://github.com/leaningtech/cheerp-meta/"
       description: >- # this means to ignore newlines until "something:"
         Your descriptionw. You can edit this
         line in _config.yml. It will appear in your document head meta (for
         Google search results) and in your feed.xml site description.
-      index: cheerpIndex.html
+      index: cheerp/index.html
+      index-specific: cheerp/index-specific.html
   - scope:
       path: "cheerp/README.md"
     values:
       permalink: "/cheerp/"
+  - scope:
+      path: "cheerpj-applet-runner"
+    values:
+      is_product: 1
+      image: "https://opengraph.githubassets.com/19821c25899861c60f24bbabafd28c924982e74a2edb07a58a3d28f6f5210efb/leaningtech/cheerpj-appletrunner"
+      section-title: CheerpJ Applet Runner Documentation
+      logo: "/assets/cheerpj_logo.png"
+      baseurl: "/cheerpj-applet-runner/"
+      baseurl_no: "cheerpj-applet-runner/"
+      tagline:
+        line1: "CheerpJ Applet Runner"
+        line2: "Documentation & Tutorials"
+      header_selection:
+        website: https://leaningtech.com/cheerpj-applet-runner/
+        # repository: https://github.com/leaningtech/cheerpj-appletrunner    # Change to relevant repo
+        issues: https://github.com/leaningtech/cheerpj-appletrunner/issues # Change here
+        chat: https://gitter.im/leaningtech/cheerpj                # Change here
+        blog: https://medium.com/leaningtech
+        #about: "/cheerp/about"
+      index-links:
+        #download: "https://leaningtech.com/cheerp/#download"
+        chrome: "https://chrome.google.com/webstore/detail/cheerpj-applet-runner/bbmolahhldcbngedljfadjlognfaaein"
+        edge: "https://microsoftedge.microsoft.com/addons/detail/cheerpj-applet-runner/ebfcpaoldmijengghefpohddmfpndmic"
+        privacy: "https://leaningtech.com/privacy-policy-cheerpj-ar/"
+      source_repo: "https://github.com/leaningtech/cheerpj-appletrunner/"
+      description: >- # this means to ignore newlines until "something:"
+        Your descriptionw. You can edit this
+        line in _config.yml. It will appear in your document head meta (for
+        Google search results) and in your feed.xml site description.
+      index: cheerpj-applet-runner/index.html
+      index-specific: cheerpj-applet-runner/index-specific.html
+  - scope:
+      path: "cheerpj-applet-runner/README.md"
+    values:
+      permalink: "/cheerpj-applet-runner/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

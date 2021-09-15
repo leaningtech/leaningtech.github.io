@@ -1,0 +1,10 @@
+{%- if page.is_product -%}
+<li><a href="{{page.header_selection.website}}">Product Website</a>
+<ul>
+	{%- if page.index-links.chrome -%}<li><a href="{{page.index-links.chrome}}">Install from Chrome Store</a></li>{%- endif -%}
+	{%- if page.index-links.edge -%}<li><a href="{{page.index-links.edge}}">Install from Edge Store</a></li>{%- endif -%}
+      {%- if page.index-links.privacy -%}<li><a href="{{page.index-links.privacy}}">Privacy Policy</a></li>{%- endif -%}
+      {%- if page.index-links.licence -%}<li><a href="{{page.index-links.licence}}">Licencing</a></li>{%- endif -%}
+</ul>
+</li>
+{%- endif -%}
