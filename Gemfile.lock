@@ -45,7 +45,7 @@ GEM
     faraday-net_http_persistent (1.2.0)
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
-    ffi (1.15.3)
+    ffi (1.15.4)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (217)
@@ -211,7 +211,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  github-pages (~> 217)
+  github-pages
+  jekyll (~> 3.9.0)
   jekyll-feed (~> 0.6)
   kramdown-parser-gfm
   tzinfo (~> 1.2)
