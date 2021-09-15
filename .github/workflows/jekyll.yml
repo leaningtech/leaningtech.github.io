@@ -16,6 +16,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Checkout submodules
         run: git submodule update --init --recursive
+      - name: Update submodules
+        run: submodule update --remote --merge
       - name: Build the site in the jekyll/builder container
         run: |
           docker run \
