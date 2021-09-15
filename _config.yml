@@ -46,8 +46,9 @@ defaults:
         #repository: https://github.com/leaningtech/leaningtech-docs    # Change to relevant repo
         #issues: https://github.com/leaningtech/leaningtech-docs/issues # Change here
         #chat: https://gitter.im/leaningtech/cheerp                 # Change here
-        blog: https://medium.com/leaningtech
-        about: "/about"
+        blog: "https://leaningtech.com/news/?technicalblog"
+        contactus: https://leaningtech.com/contact-us/
+        #general_about: "/about"
       source_repo: "https://github.com/leaningtech/leaningtech.github.io/"
       description: >- # this means to ignore newlines until "something:"
         Your description. You can edit this
@@ -76,8 +77,7 @@ defaults:
         repository: https://github.com/leaningtech/cheerp-meta    # Change to relevant repo
         issues: https://github.com/leaningtech/cheerp-meta/issues # Change here
         chat: https://gitter.im/leaningtech/cheerp                 # Change here
-        blog: https://medium.com/leaningtech
-        about: "/cheerp/about"
+        contactus: https://leaningtech.com/contact-us/?subject=Cheerp%20Information%20Request#mailus
       download: "https://leaningtech.com/cheerp/#download"
       source_repo: "https://github.com/leaningtech/cheerp-meta/"
       description: >- # this means to ignore newlines until "something:"
@@ -107,7 +107,7 @@ defaults:
         # repository: https://github.com/leaningtech/cheerpj-appletrunner    # Change to relevant repo
         issues: https://github.com/leaningtech/cheerpj-appletrunner/issues # Change here
         chat: https://gitter.im/leaningtech/cheerpj                # Change here
-        blog: https://medium.com/leaningtech
+        contactus: https://leaningtech.com/contact-us/?subject=CheerpJ%20Applet%20Runner%20Information%20Request#mailus
         #about: "/cheerp/about"
       index-links:
         #download: "https://leaningtech.com/cheerp/#download"
@@ -142,7 +142,7 @@ defaults:
         # repository: https://github.com/leaningtech/cheerpj-appletrunner    # Change to relevant repo
         issues: https://github.com/leaningtech/cheerpj-meta/issues # Change here
         chat: https://gitter.im/leaningtech/cheerpj                # Change here
-        blog: https://medium.com/leaningtech
+        contactus: https://leaningtech.com/contact-us/?subject=CheerpJ%20Information%20Request#mailus
         #about: "/cheerp/about"
       index-links:
         download: "https://leaningtech.com/download-cheerpj/"

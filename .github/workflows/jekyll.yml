@@ -17,7 +17,7 @@ jobs:
       - name: Checkout submodules
         run: git submodule update --init --recursive
       - name: Update submodules
-        run: submodule update --remote --merge
+        run: git submodule update --remote --merge
       - name: Build the site in the jekyll/builder container
         run: |
           docker run \
