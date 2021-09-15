@@ -160,6 +160,39 @@ defaults:
       path: "cheerpj/README.md"
     values:
       permalink: "/cheerpj/"
+  - scope:
+      path: "cheerpx-for-flash"
+    values:
+      is_product: 1
+      image: "https://opengraph.githubassets.com/19821c25899861c60f24bbabafd28c924982e74a2edb07a58a3d28f6f5210efb/leaningtech/cheerpx-flash"
+      section-title: CheerpX For Flash Documentation
+      logo: "/assets/cheerpx_logo.png"
+      baseurl: "/cheerpx-for-flash/"
+      baseurl_no: "cheerpx-for-flash/"
+      tagline:
+        line1: "CheerpX For Flash | Flash for the modern Web"
+        line2: "Documentation & Tutorials"
+      header_selection:
+        website: https://leaningtech.com/cheerpx-for-flash/
+        # repository: https://github.com/leaningtech/cheerpj-appletrunner    # Change to relevant repo
+        #issues: https://github.com/leaningtech/cheerpj-meta/issues # Change here
+        #chat: https://gitter.im/leaningtech/cheerpj                # Change here
+        contactus: https://leaningtech.com/contact-us/?subject=CheerpX%20For%20Flash%20Information%20Request#mailus
+        #about: "/cheerp/about"
+      index-links:
+        download: "https://leaningtech.com/download-cheerpx-for-flash/"
+        licence: "https://leaningtech.com/cheerpx-for-flash-licensing/"
+        demo: "https://leaningtech.com/demo/?cheerpxfilter"
+        book_demo: "https://leaningtech.com/cheerpx-for-flash/#contact"
+      source_repo: "https://github.com/leaningtech/cheerpx-flash/"
+      description: >- # this means to ignore newlines until "something:"
+        Main documentation and tutorials for CheerpX For Flash | run Flash content in the browser without the Flash Player.
+      index: cheerpx-for-flash/index.html
+      index-specific: cheerpx-for-flash/index-specific.html
+  - scope:
+      path: "cheerpx-for-flash/README.md"
+    values:
+      permalink: "/cheerpx-for-flash/"
 
 docs_repo: "https://github.com/leaningtech/leaningtech.github.io/"
 

@@ -7,3 +7,6 @@
 [submodule "cheerpj"]
 	path = cheerpj
 	url = https://github.com/leaningtech/cheerpj-meta.git
+[submodule "cheerpx-for-flash"]
+	path = cheerpx-for-flash
+	url = https://github.com/leaningtech/cheerpx-flash.git
