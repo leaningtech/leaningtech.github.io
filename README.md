@@ -1,38 +1,13 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-title: Welcome to the docs template!
+title: Welcome to the Leaning Technology documentation!
 ---
 
-## Leaning Technologies own Jekyll theme
+We bring your software to the browser. Compiled automatically, executed efficiently, fully client-side. Our team of WebAssembly experts is ready to help you with your project.
 
-To set up a GitHub page using the same theme, you should:
-* copy to_be_modified/\_config.yml to the top level of your own repo
-* modify the appropriate fields of the new \_config.yml file
-* copy 404.md to the top level of your own repo
-* copy about.md to the top level of your own repo, and modify it appropriately
-* create the folder \_includes at the top level of your own repo
-* copy \_includes/index.hmtl inside the \_includes folder and modify it appropriately
-* commit everything
-* enable publishing to GitHub pages on the setting for your own repo
+We are a computer software company based out of Leeds, UK and Amsterdam, Netherlands. We specialise in WebAssembly and compile-to-JavaScript solutions to convert applications into Web Apps.
 
-Now if all went well, you should have a new and stilish GitHub page for the project
+Our tools allow companies to preserve critical legacy applications written in Java, Flash and C/C++, and automatically migrate them to HTML5 and WebAssembly, making their application accessible from any modern browser.
+
+Our solutions have given organisations an alternative option to rewriting native applications to HTML5/JavaScript. They keep a single code base, which avoids bug duplication, as you are reusing your existing code. This allows you to continue to leverage your existing team skills, and most of all, saving you the time, effort and budget needed to hire a new team.
 
 
-How to modify styling
------
-
-File a PR to leaningtech-docs + rebuild your web site (done automatically on push or on request via GitHub's project webpage)
-
-
-How to modify content
------
-
-Any change to any markdown file on the master branch should be reflected (in a couple of minutes) by the live documentation page
-
-
-Bugs and Questions
-------
-
-Get in contact via issues or pidgeon

@@ -126,6 +126,8 @@ defaults:
     values:
       permalink: "/cheerpj-applet-runner/"
 
+docs_repo: "https://github.com/leaningtech/leaningtech.github.io/"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
