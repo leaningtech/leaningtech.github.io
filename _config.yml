@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 baserepo: "https://github.com/leaningtech"
 url: "https://docs.leaningtech.com" # the base hostname & protocol for your site, e.g. http://example.com
+title: "docs.leaningtech.com"
 
 email: info@leaningtech.com
 social_links:
