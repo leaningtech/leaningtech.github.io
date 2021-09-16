@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 baserepo: "https://github.com/leaningtech"
-url: "https://leaningtech.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://docs.leaningtech.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 email: info@leaningtech.com
 social_links:
