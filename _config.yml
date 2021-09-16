@@ -36,7 +36,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: "https://opengraph.githubassets.com/19821c25899861c60f24bbabafd28c924982e74a2edb07a58a3d28f6f5210efb/leaningtech/leaningtech-docs"
+      image: "https://opengraph.githubassets.com/19821c25899861c60f24bbabafd28c924982e74a2edb07a58a3d28f6f5210efb/leaningtech/leaningtech.github.io"
       section-title: Leaning Technologies Documentation
       logo: "/assets/leaningtech.jpg"
       baseurl: "/"
@@ -54,9 +54,7 @@ defaults:
         #general_about: "/about"
       source_repo: "https://github.com/leaningtech/leaningtech.github.io/"
       description: >- # this means to ignore newlines until "something:"
-        Your description. You can edit this
-        line in _config.yml. It will appear in your document head meta (for
-        Google search results) and in your feed.xml site description.
+        Documentation for Cheerp, CheerpJ, CheerpJ Applet Runner and CheerpX For Flash
       index: index.html
       index-specific: index-specific.html
   - scope:
@@ -84,9 +82,7 @@ defaults:
       download: "https://leaningtech.com/cheerp/#download"
       source_repo: "https://github.com/leaningtech/cheerp-meta/"
       description: >- # this means to ignore newlines until "something:"
-        Your descriptionw. You can edit this
-        line in _config.yml. It will appear in your document head meta (for
-        Google search results) and in your feed.xml site description.
+        Cheerp is the enterprise-grade C/C++ compiler for the Web and can compile C/C++ into WebAssembly and JavaScript.
       index: cheerp/index.html
       index-specific: cheerp/index-specific.html
   - scope:
@@ -119,9 +115,7 @@ defaults:
         privacy: "https://leaningtech.com/privacy-policy-cheerpj-ar/"
       source_repo: "https://github.com/leaningtech/cheerpj-appletrunner/"
       description: >- # this means to ignore newlines until "something:"
-        Your descriptionw. You can edit this
-        line in _config.yml. It will appear in your document head meta (for
-        Google search results) and in your feed.xml site description.
+        CheerpJ Applet Runners allowing you to convert on-the-fly any Java client application into standard HTML5, WebAssembly or JavaScript.
       index: cheerpj-applet-runner/index.html
       index-specific: cheerpj-applet-runner/index-specific.html
   - scope:
@@ -154,9 +148,7 @@ defaults:
         #privacy: "https://leaningtech.com/privacy-policy-cheerpj-ar/"
       source_repo: "https://github.com/leaningtech/cheerpj-appletrunner/"
       description: >- # this means to ignore newlines until "something:"
-        Your descriptionw. You can edit this
-        line in _config.yml. It will appear in your document head meta (for
-        Google search results) and in your feed.xml site description.
+        CheerpJ is the java compiler for the Web, allowing you to convert any Java client application into standard HTML5, WebAssembly or JavaScript.
       index: cheerpj/index.html
       index-specific: cheerpj/index-specific.html
   - scope:
