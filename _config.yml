@@ -29,6 +29,8 @@ markdown: kramdown
 plugins:
  - jekyll-seo-tag
 
+blog: "https://leaningtech.com/news/?technicalblog"
+
 defaults:
   - scope:
       path: ""
