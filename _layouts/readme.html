@@ -4,16 +4,15 @@
   {%- include head.html -%}
 
   <body>
-	  {%- include header-empty.html -%}
+
+    {%- include header.html -%}
     <div class="page-content wrapper middle-section">
-	    <div class="row">
       <main aria-label="Content">
 	{{ content }}
-
+	<div style="padding: 30px"></div>
 	{%- include selection.html -%}
       </main>
-      </div>
-    </div>
+	    </div>
 
     {%- include footer.html -%}
 
