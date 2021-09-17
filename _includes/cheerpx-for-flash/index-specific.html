@@ -1,10 +1,11 @@
 {%- if page.is_product -%}
 <li><a href="{{page.header_selection.website}}">Product Website</a>
+  <ul>
       {%- if page.download -%}<li><a href="{{page.download}}">Download</a></li>{%- endif -%}
       {%- if page.book_demo -%}<li><a href="{{page.book_demo}}">Book a Demo</a></li>{%- endif -%}
       {%- if page.support -%}<li><a href="{{page.support}}">Support</a></li>{%- endif -%}
       {%- if page.licence -%}<li><a href="{{page.licence}}">Licencing</a></li>{%- endif -%}
       {%- if page.demo -%}<li><a href="{{page.demo}}">Demo</a></li>{%- endif -%}
-  <ul>
+  </ul>
 </li>
 {%- endif -%}
