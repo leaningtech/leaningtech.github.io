@@ -90,6 +90,10 @@ defaults:
     values:
       permalink: "/cheerp/"
   - scope:
+      path: "cheerp/pages"
+    values:
+      permalink: "cheerp/:basename:output_ext"
+  - scope:
       path: "cheerpj-applet-runner"
     values:
       is_product: 1
@@ -118,6 +122,10 @@ defaults:
         CheerpJ Applet Runners allowing you to convert on-the-fly any Java client application into standard HTML5, WebAssembly or JavaScript.
       index: cheerpj-applet-runner/index.html
       index-specific: cheerpj-applet-runner/index-specific.html
+  - scope:
+      path: "cheerpj-applet-runner/pages"
+    values:
+      permalink: "cheerpj-applet-runner/:basename:output_ext"
   - scope:
       path: "cheerpj-applet-runner/README.md"
     values:
@@ -152,6 +160,10 @@ defaults:
       index: cheerpj/index.html
       index-specific: cheerpj/index-specific.html
   - scope:
+      path: "cheerpj/pages"
+    values:
+      permalink: "cheerpj/:basename:output_ext"
+  - scope:
       path: "cheerpj/README.md"
     values:
       permalink: "/cheerpj/"
@@ -184,6 +196,10 @@ defaults:
         Main documentation and tutorials for CheerpX For Flash | run Flash content in the browser without the Flash Player.
       index: cheerpx-for-flash/index.html
       index-specific: cheerpx-for-flash/index-specific.html
+  - scope:
+      path: "cheerpx-for-flash/pages"
+    values:
+      permalink: "cheerpx-for-flash/:basename:output_ext"
   - scope:
       path: "cheerpx-for-flash/README.md"
     values:
