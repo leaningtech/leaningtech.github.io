@@ -154,7 +154,7 @@ defaults:
         licence: "https://leaningtech.com/cheerpj-licensing/"
         demo: "https://leaningtech.com/demo/?cheerpjfilter"
         #privacy: "https://leaningtech.com/privacy-policy-cheerpj-ar/"
-      source_repo: "https://github.com/leaningtech/cheerpj-appletrunner/"
+      source_repo: "https://github.com/leaningtech/cheerpj-meta/"
       description: >- # this means to ignore newlines until "something:"
         CheerpJ is the java compiler for the Web, allowing you to convert any Java client application into standard HTML5, WebAssembly or JavaScript.
       index: cheerpj/index.html
