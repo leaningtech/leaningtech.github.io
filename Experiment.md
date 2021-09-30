@@ -1,5 +1,5 @@
 ---
-layout: readme
+layout: readmeExp
 ---
 
 # Welcome to Leaning Technologies's docs

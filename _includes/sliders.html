@@ -1,0 +1,151 @@
+		<style>
+.wheelButton {background-color: transparent; border-color:transparent; padding: 10px; border-radius: 10px; font-size:medium; cursor:pointer;}
+.highlightWheelButton   {border-color: darkgrey; border-style: solid; border-width: 3px;}
+.line {height: 30px;}
+.line-container {width: 49%; min-width: 400px; padding: 30px;}
+.marker-container {position: relative; height: inherit; margin-left: 15px; margin-right: 15px;}
+.marker {height: inherit; transform: translate(-50%, -50%); position: absolute; top: 50%;}
+.name-container {display: flex; justify-content: space-between;}
+.filtered {filter: grayscale(0.4);}
+.bigHighlight {transform: none;}
+.cheerp {padding: 2px; transition: all 1s;}
+.cheerpj {padding: 2px; transition: all 1s;}
+.cheerpjAR {padding: 2px; transition: all 1s;}
+.cheerpx {padding: 2px; transition: all 1s;}
+.cheerpxF {padding: 2px; transition: all 1s;}
+.cheerp-selected * .cheerp,
+.cheerpj-selected * .cheerpj,
+.cheerpjAR-selected * .cheerpjAR,
+.cheerpx-selected * .cheerpx,
+.cheerpxF-selected * .cheerpxF {padding: 0; z-index:10; filter: none; top:35%;}
+.cheerp-selected * .cheerp.bigHighlight,
+.cheerpj-selected * .cheerpj.bigHighlight,
+.cheerpjAR-selected * .cheerpjAR.bigHighlight,
+.cheerpx-selected * .cheerpx.bigHighlight,
+.cheerpxF-selected * .cheerpxF.bigHighlight {transform: translate(0%, -7%)scale(1.07);}
+</style>
+		<script>
+		</script>
+		<div id="CONTAINER">
+		<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+			<div class="line-container">
+			<div class="line">
+				<div class="marker-container">
+					<div style="height: 4px; width: 100%; position: absolute; top: 50%; transform: translate(0%, -50%); border-radius: 2px; background-color: black;"></div>
+		  <img class="square-logo marker cheerp filtered" rel="me" alt="Cheerp shield logo" style="left: 2%;" src="/assets/cheerp_only_logo.jpg">
+		  <img class="square-logo marker cheerpj filtered" rel="me" alt="Cheerp shield logo" style="left: 45%;" src="/assets/cheerpj_only_logo.jpg">
+		  <img class="square-logo marker cheerpjAR filtered" rel="me" alt="Cheerp shield logo" style="left: 93%;" src="/assets/cheerpj_only_logo.jpg">
+		  <img class="square-logo marker cheerpx filtered" rel="me" alt="Cheerp shield logo" style="left: 30%;" src="/assets/cheerpx_only_logo.jpg">
+		  <img class="square-logo marker cheerpxF filtered" rel="me" alt="Cheerp shield logo" style="left: 75%;" src="/assets/cheerpx_only_logo.jpg">
+				</div>
+			</div>
+				<div class="name-container">
+					<p>Developers</p>
+					<p>Users</p>
+				</div>
+		</div>
+<!--		<div class="line-container">
+			<div class="line">
+				<div class="marker-container">
+					<div style="height: 4px; width: 100%; position: absolute; top: 50%; transform: translate(0%, -50%); border-radius: 2px; background-color: black;"></div>
+		  <img class="square-logo marker cheerp filtered" rel="me" alt="Cheerp shield logo" style="left: 5%;" src="/assets/cheerp_only_logo.jpg">
+		  <img class="square-logo marker cheerpj filtered" rel="me" alt="Cheerp shield logo" style="left: 30%;" src="/assets/cheerpj_only_logo.jpg">
+		  <img class="square-logo marker cheerpjAR filtered" rel="me" alt="Cheerp shield logo" style="left: 80%;" src="/assets/cheerpj_only_logo.jpg">
+		  <img class="square-logo marker cheerpx filtered" rel="me" alt="Cheerp shield logo" style="left: 50%;" src="/assets/cheerpx_only_logo.jpg">
+		  <img class="square-logo marker cheerpxF filtered" rel="me" alt="Cheerp shield logo" style="left: 57%;" src="/assets/cheerpx_only_logo.jpg">
+				</div>
+			</div>
+				<div class="name-container">
+					<p>Any browser</p>
+					<p>Modern browsers</p>
+				</div>
+</div>-->
+		<div class="line-container">
+			<div class="line">
+				<div class="marker-container">
+					<div style="height: 4px; width: 100%; position: absolute; top: 50%; transform: translate(0%, -50%); border-radius: 2px; background-color: black;"></div>
+		  <img class="square-logo marker cheerp filtered" rel="me" alt="Cheerp shield logo" style="left: 10%;" src="/assets/cheerp_only_logo.jpg">
+		  <img class="square-logo marker cheerpj filtered" rel="me" alt="Cheerp shield logo" style="left: 50%;" src="/assets/cheerpj_only_logo.jpg">
+		  <img class="square-logo marker cheerpjAR filtered" rel="me" alt="Cheerp shield logo" style="left: 70%;" src="/assets/cheerpj_only_logo.jpg">
+		  <img class="square-logo marker cheerpx filtered" rel="me" alt="Cheerp shield logo" style="left: 80%;" src="/assets/cheerpx_only_logo.jpg">
+		  <img class="square-logo marker cheerpxF filtered" rel="me" alt="Cheerp shield logo" style="left: 90%;" src="/assets/cheerpx_only_logo.jpg">
+				</div>
+			</div>
+				<div class="name-container">
+					<p>Compiler</p>
+					<p>Runtime</p>
+				</div>
+		</div>
+		</div>
+		<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+	  <div style="display:flex; width: 70%; flex-direction: rows; align-self:center; justify-content: space-between; ">
+		  <a href="/cheerp/" title="Cheerp's documentation & tutorials" style="width:20%; max-width:90px;"><img class="square-logo cheerp bigHighlight" rel="me" alt="Cheerp shield logo" style=" height:fit-content;" src="{{site.baseurl}}/assets/cheerp_only_logo.jpg"></img><div style="font-size:smaller; text-align:center;">Cheerp (C++)</div></a>
+		  <a href="/cheerpj/" title="CheerpJ's Documentation" style="width:20%; max-width:90px;"><img class="square-logo cheerpj bigHighlight" rel="me" alt="CheerpJ shield logo" style=" height:fit-content;" src="{{site.baseurl}}/assets/cheerpj_only_logo.jpg"></img><div style="font-size:smaller; text-align:center;">CheerpJ (Java)</div></a>
+		  <a href="/cheerpj-applet-runner/" title="CheerpJ Applet Runner's documentation" style="width:20%; max-width:90px;"><img class="square-logo cheerpjAR bigHighlight" alt="CheerpJ shield logo" rel="me" style=" height:fit-content;" src="{{site.baseurl}}/assets/cheerpj_only_logo.jpg"></img><div style="font-size:smaller; text-align:center;">CheerpJ Applet Runner</div></a>
+		  <a href="/cheerpx/" title="CheerpX documentation" style="width:20%; max-width:90px;"><img class="square-logo cheerpx bigHighlight" rel="author" alt="CheerpX shield logo" style=" height:fit-content;" src="{{site.baseurl}}/assets/cheerpx_only_logo.jpg"></img><div style="font-size:smaller; text-align:center;">CheerpX (x86 VM)</div></a>
+		  <a href="/cheerpx-for-flash/" title="CheerpX for Flash documentation" style="width:20%; max-width:90px;"><img class="square-logo cheerpxF bigHighlight" alt="CheerpX shield logo" rel="author" style=" height:fit-content;" src="/assets/cheerpx_only_logo.jpg"></img><div style="font-size:smaller; text-align:center;">CheerpX For Flash</div></a>
+	  </div>
+	  </div>
+	  </div>
+				<script>
+					var CONTAINER = document.getElementById("CONTAINER");
+					var elms = document.getElementsByClassName("cheerp");
+					for (var i =0; i<elms.length; i++)
+					{
+											var x = elms[i];
+    x.onmouseover = function() {
+        CONTAINER.classList.add("cheerp-selected");
+    };
+    x.onmouseout = function() {
+	CONTAINER.classList.remove("cheerp-selected");
+    };
+										}
+					var elms = document.getElementsByClassName("cheerpj");
+					for (var i =0; i<elms.length; i++)
+					{
+											var x = elms[i];
+    x.onmouseover = function() {
+        CONTAINER.classList.add("cheerpj-selected");
+    };
+    x.onmouseout = function() {
+	CONTAINER.classList.remove("cheerpj-selected");
+    };
+										}
+
+					var elms = document.getElementsByClassName("cheerpjAR");
+					for (var i =0; i<elms.length; i++)
+					{
+											var x = elms[i];
+    x.onmouseover = function() {
+        CONTAINER.classList.add("cheerpjAR-selected");
+    };
+    x.onmouseout = function() {
+	CONTAINER.classList.remove("cheerpjAR-selected");
+    };
+										}
+
+					var elms = document.getElementsByClassName("cheerpx");
+					for (var i =0; i<elms.length; i++)
+					{
+											var x = elms[i];
+    x.onmouseover = function() {
+        CONTAINER.classList.add("cheerpx-selected");
+    };
+    x.onmouseout = function() {
+	CONTAINER.classList.remove("cheerpx-selected");
+    };
+										}
+
+					var elms = document.getElementsByClassName("cheerpxF");
+					for (var i =0; i<elms.length; i++)
+					{
+											var x = elms[i];
+    x.onmouseover = function() {
+        CONTAINER.classList.add("cheerpxF-selected");
+    };
+    x.onmouseout = function() {
+	CONTAINER.classList.remove("cheerpxF-selected");
+    };
+										}
+
+				</script>
