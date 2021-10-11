@@ -2,7 +2,7 @@
 layout: readmeExp
 ---
 
-# Welcome to Leaning Technologies's docs!
+# Welcome to Leaning Technologies's docs !
 
 Information for helping you move to Web-based solution projects in [C++](/cheerp/) / [Java](/cheerpj/) / [x86](/cheerpx/) or [Flash](/cheerpx-for-flash/) can be found here.
 
