@@ -7,6 +7,13 @@ CheerpX is a state-of-the-art Virtual Machine that runs purely client side in yo
 
 Main project link: [https://leaningtech.com/cheerpx/](https://leaningtech.com/cheerpx/)
 
+## Demo: client side Linux distribution
+
+Execute, directly in your browser, a Debian distribution.
+Try this live at: [https://webvm.io/](https://webvm.io/).
+
+For feedback or bug reports, the repository is on GitHub: [https://github.com/leaningtech/webvm](https://github.com/leaningtech/webvm).
+
 ## Demo: client side REPL
 
 Execute, directly in your browser, the Read-Eval-Print Loop for the unmodified x86 binaries of Python, Ruby or Node.js.
