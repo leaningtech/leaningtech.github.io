@@ -23,6 +23,8 @@ jobs:
         run: git submodule update --init --recursive --remote --force
       - name: Add eventual differences
         run: git add .
+      - name: Identify
+        run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
       - name: Create commit
         run: git commit -m "Auto-generated commit"
       - name: Push upstream
