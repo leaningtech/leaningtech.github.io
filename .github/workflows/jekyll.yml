@@ -20,9 +20,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Checkout submodules
-        run: git submodule update --init --recursive
-      - name: Update submodules
-        run: git submodule update --remote --merge
+        run: git submodule update --init --recursive --remote --force
+      - name: Add eventual differences
+        run: git add .
+      - name: Create commit
+        run: git commit -m "Auto-generated commit"
+      - name: Push upstream
+        run: git push
       - name: Build the site in the jekyll/builder container
         run: |
           docker run \
