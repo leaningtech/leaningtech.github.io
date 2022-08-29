@@ -11,6 +11,13 @@
 	{{ content }}
 
 	{%- include search.html -%}
+	<script>
+	  function callBack(){
+		var str = window.location.pathname.replace(/\//g, " ").replace("-", " ");
+		document.getElementById('search_input').value = str;
+		onChange(str);
+	  };
+	</script>
       </main>
       </div>
     </div>
